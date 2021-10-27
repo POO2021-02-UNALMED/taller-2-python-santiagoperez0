@@ -21,7 +21,7 @@ class Auto:
         asientos = 0
         for i in self.asientos:
             if type(i) == Asiento :
-                total += 1
+                asientos += 1
         return asientos
 
     def verificarIntegridad(self):
