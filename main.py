@@ -1,3 +1,4 @@
+
 class Asiento:
     def __init__(self,color,precio,registro):
         self.color=color
@@ -24,7 +25,6 @@ class Auto:
         return asientos
 
     def verificarIntegridad(self):
-        def verificarIntegridad(self):
         if self.registro == self.motor.registro:
             for i in self.asientos:
                 if type(i)== Asiento:
